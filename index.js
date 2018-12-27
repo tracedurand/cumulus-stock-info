@@ -23,7 +23,7 @@ app.get('/', function(req, res){
 		console.log('Company Name: ' + body.quote.companyName);
 		console.log('Primary Exchange: ' + body.quote.primaryExchange);
 		console.log('Sector: ' + body.quote.sector);
-		console.log('Latest Price: ' + body.quote.latestPrice);
+		console.log('Latest Price: $' + body.quote.latestPrice);
 
 		res.render('pages/index',{
 			"sector" : body.quote.sector,

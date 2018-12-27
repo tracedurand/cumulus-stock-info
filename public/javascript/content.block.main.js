@@ -13,7 +13,7 @@ function chosen(imgId) {
     //    if (acenter) {
     //        sdk.setContent("<center><img src='" + image + "'/></center>");
     //    } else {
-            sdk.setContent("<h2>hello world TLD</h2>");
+            sdk.setContent(document.documentElement.innerHTML);
     //    }
    // }
 }
